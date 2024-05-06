@@ -4,11 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build" : "netlify deploy --prod",
-    "start" : "node functions/server.js",
+    "build": "netlify deploy --prod",
+    "start": "node functions/server.js",
     "dev": "nodemon src/index.js"
-
-    
   },
   "keywords": [],
   "author": "",

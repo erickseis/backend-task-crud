@@ -19,6 +19,6 @@ app.use(cookieParser())
 app.use("/api", authRoutes); // de esta manera especificamos que queremos todas las rutas comiencen con "/api" , ejemplo http://localhost:3000/api
 app.use("/api", taskRoutes);
 
-app.use('/.netlify/functions/app', router);
+app.use('/.netlify/functions/server', router);
 export const handler = serverless(app)
 export default app;

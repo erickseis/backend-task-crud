@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build" : "netlify deploy --prod",
-    "start" : "node functions/server.js"
+    "start" : "node functions/server.js",
+    "dev": "nodemon src/index.js"
+
     
   },
   "keywords": [],
